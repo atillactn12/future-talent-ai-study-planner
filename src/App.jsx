@@ -181,7 +181,12 @@ function App() {
       setAiError('')
       setAiInsights(null)
 
-      const response = await fetch('http://localhost:3001/api/ai-insights', {
+      const apiUrl =
+  import.meta.env.DEV
+    ? 'http://localhost:3001/api/ai-insights'
+    : '/api/ai-insights'
+
+const response = await fetch(apiUrl, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
