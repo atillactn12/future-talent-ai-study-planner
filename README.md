@@ -1,5 +1,13 @@
 # AI Study Planner
 
+## Canlı Demo
+
+Canlı uygulama linki: [Buradan görüntüle](https://future-talent-ai-study-planner-git-main-atillactn12s-projects.vercel.app)
+
+## GitHub Repository
+
+Proje kaynak kodu: [GitHub üzerinden görüntüle](https://github.com/atillactn12/future-talent-ai-study-planner)
+
 AI Study Planner, öğrencilerin hedeflerine, son tarihlerine, günlük çalışma sürelerine, mevcut seviyelerine ve konu listelerine göre kişiselleştirilmiş çalışma planı oluşturmalarına yardımcı olan yapay zeka destekli bir web uygulamasıdır.
 
 Bu proje iki ana yapıyı birleştirir:
@@ -86,7 +94,7 @@ Eğer yapay zeka servisi geçici olarak yoğunluk nedeniyle cevap veremezse, uyg
 Projeyi klonla:
 
 ```bash
-git clone REPOSITORY_LINKIN
+git clone https://github.com/atillactn12/future-talent-ai-study-planner.git
 cd future-talent-ai-study-planner
 
 Bağımlılıkları kur:
@@ -116,6 +124,9 @@ future-talent-ai-study-planner/
 │   ├── App.css
 │   ├── main.jsx
 │   └── index.css
+│
+├── api/
+│   └── ai-insights.js
 │
 ├── server.js
 ├── package.json
